@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://kit.fontawesome.com/55174c58a9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="site.css">
+    <script type="module" src="app.js"></script>
+    <title>Reading List</title>
+</head>
+<body>
+    
+<main>
+    <div class="container">
+
+        <header>
+            <img src="images/collection-154768_1920.png" alt="Reading List">
+            <h1 id="app-title" class="page-title">Reading List</h1>
+        </header>
+
+        <section class="message-section"></section>
+
+        <form id="item-form">
+            <div class="form-control">
+                <input type="text" id="item-input" class="form-input" placeholder="Add a book">
+            </div>
+            <div class="form-control">
+                <button id="addButton" class="btn btn-primary">
+                    <i class="fa-solid fa-plus"></i> Add book
+                </button>
+            </div>
+        </form>
+
+        <div class="filter">
+            <input type="text" class="form-input-filter" id="filter" placeholder="Search books">
+        </div>
+
+<ul class="items" id="item-list">
+    <!-- <li>
+        <span>Book 1</span>
+        <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i></button>
+    </li>
+    <li>
+        <span>Book 2</span>
+        <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </li>
+    <li>
+        <span>Book 3</span>
+        <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </li>
+    <li>
+        <span>Book 4</span>
+        <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </li> -->
+</ul>
+        <button id="clear" class="btn-clear">Clear List</button>
+
+    </div>
+</main>
+
+</body>
+</html>

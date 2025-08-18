@@ -1,0 +1,17 @@
+{
+  "name": "readinglist",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@vitest/ui": "^3.2.4",
+    "happy-dom": "^18.0.1",
+    "vitest": "^3.2.4"
+  }
+}

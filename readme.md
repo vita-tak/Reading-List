@@ -1,0 +1,1 @@
+* Lägg till "Bok tillagd i listan" när en bok läggs till i listan. Gör en timeout på 1500ms innan meddelandet tas bort. Inkorporera detta i en egen funktion tillsammans med felmeddelandet.
